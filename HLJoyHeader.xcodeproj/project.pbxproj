@@ -15,6 +15,7 @@
 		4662D3FD2223E711000465F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4662D3FC2223E711000465F0 /* main.m */; };
 		4662D4072223E712000465F0 /* HLJoyHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4662D4062223E712000465F0 /* HLJoyHeaderTests.m */; };
 		4662D4122223E712000465F0 /* HLJoyHeaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4662D4112223E712000465F0 /* HLJoyHeaderUITests.m */; };
+		4662D4212223E75C000465F0 /* TestHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4662D4202223E75C000465F0 /* TestHeaderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4662D40D2223E712000465F0 /* HLJoyHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLJoyHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4662D4112223E712000465F0 /* HLJoyHeaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLJoyHeaderUITests.m; sourceTree = "<group>"; };
 		4662D4132223E712000465F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4662D41F2223E75C000465F0 /* TestHeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHeaderViewController.h; sourceTree = "<group>"; };
+		4662D4202223E75C000465F0 /* TestHeaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHeaderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4662D3EE2223E711000465F0 /* AppDelegate.m */,
 				4662D3F02223E711000465F0 /* ViewController.h */,
 				4662D3F12223E711000465F0 /* ViewController.m */,
+				4662D41F2223E75C000465F0 /* TestHeaderViewController.h */,
+				4662D4202223E75C000465F0 /* TestHeaderViewController.m */,
 				4662D3F32223E711000465F0 /* Main.storyboard */,
 				4662D3F62223E711000465F0 /* Assets.xcassets */,
 				4662D3F82223E711000465F0 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4662D3F22223E711000465F0 /* ViewController.m in Sources */,
+				4662D4212223E75C000465F0 /* TestHeaderViewController.m in Sources */,
 				4662D3FD2223E711000465F0 /* main.m in Sources */,
 				4662D3EF2223E711000465F0 /* AppDelegate.m in Sources */,
 			);
@@ -431,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HLJoyHeader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adong.HLJoyHeader;
@@ -444,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HLJoyHeader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adong.HLJoyHeader;
